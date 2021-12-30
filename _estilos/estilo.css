@@ -17,7 +17,15 @@
     font-weight:lighter;
 
 }
+body{
+    width: 1200px;
+    
+}
 
+head{
+    display: block;
+    background-color: brown;
+}
 
 nav.menu ul{
    
@@ -33,12 +41,15 @@ nav.menu li{
     padding: 0.75em;
     margin: 0.3em;
     border-radius: 1em;
+    
         
 }
 
 nav.menu a{
+   
     text-decoration: none;
     color: white;
+   
 }
 
 nav.menu li:hover{
@@ -54,6 +65,33 @@ h1{
     font-size: 3em;
 }
 
+section#principal{
+    max-width: 1150px;
+ 
+    
+}
+section#principal picture{
+    display: block;
+    max-width: 1150px;
+   
+    
+}
+
+picture#banner{
+ 
+    position: absolute;
+    top:20em; 
+    right: 0px;
+
+}
+figure-caption#textobanner{
+    position: absolute;
+    left: 2em;
+    top: 4em;
+    font-size: 0.9vw;
+    
+    
+}
 h2{
     font-family: "Aldero";
     font-weight: bold;
