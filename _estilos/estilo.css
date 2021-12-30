@@ -1,0 +1,80 @@
+@charset "UTG-08";
+@font-face {
+    font-family: "Aldero";
+    src: url(../_fontes/Aldero\ Bold.ttf) format"truetype";
+    font-style: normal;
+    font-weight: bold;
+
+    font-family: "Aldero";
+    src: url(../_fontes/Aldero\ Regular.ttf) format"truetype";
+    font-style:normal;
+    font-weight:normal;
+
+    
+    font-family: "Aldero";
+    src: url(../_fontes/Aldero\ Light.ttf) format"truetype";
+    font-style:normal;
+    font-weight:lighter;
+
+}
+
+
+nav.menu ul{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    text-transform: uppercase;
+   
+}
+nav.menu li{
+    display: inline-block;
+    background-color: #0f1d40;
+    padding: 0.75em;
+    margin: 0.3em;
+    border-radius: 1em;
+        
+}
+
+nav.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+nav.menu li:hover{
+    
+    background-color: #005ac1;
+    transition: 0.7s;
+}
+
+h1{
+    font-family: "Aldero";
+    font-weight: bold;
+    font-style:normal ;
+    font-size: 3em;
+}
+
+h2{
+    font-family: "Aldero";
+    font-weight: bold;
+    font-size: 1.5em;
+}
+h3{
+    font-family:"Aldero";
+    font-weight: normal;
+    font-size: 1.5em;
+}
+h4#saibamais{
+    text-align: left;
+    font-family:"Aldero";
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 0.5em 1em 0.5em 1em;
+}
+h4#solucao{
+    text-align: center;
+    font-family:"Aldero";
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 0.5em 1em 0.5em 1em;
+}
