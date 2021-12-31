@@ -40,7 +40,7 @@ header>img{
 
 }
 header>h1{
-    position: relative;
+    position: absolute;
     left: 2.6em;
     top: -1.9em;
     font-family: "Aldero";
