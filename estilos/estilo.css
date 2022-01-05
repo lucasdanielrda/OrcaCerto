@@ -40,7 +40,7 @@ header>img{
 
 }
 header>h1{
-    position: absolute;
+    position: relative;
     left: 2.6em;
     top: -1.9em;
     font-family: "Aldero";
@@ -52,6 +52,11 @@ header>h1>a{
     color: white;
     font-family: "Aldero";
     font-weight: bold;
+
+}
+
+picture{
+    display: ;
 }
 nav.menu ul{
    
